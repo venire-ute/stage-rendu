@@ -1,0 +1,1446 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{minasny_soil_2017}{article}{}{}
+      \name{author}{34}{}{%
+        {{hash=3873c179ef929ccb0d5b1fb49c4244bf}{%
+           family={Minasny},
+           familyi={M\bibinitperiod},
+           given={Budiman},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7c70c036d011dd86e0e417faf31f9667}{%
+           family={Malone},
+           familyi={M\bibinitperiod},
+           given={Brendan\bibnamedelima P.},
+           giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=d6ac28143091099ecd82ae4ae6c57be8}{%
+           family={{McBratney}},
+           familyi={M\bibinitperiod},
+           given={Alex\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c6fb75f56d123825632366f857eef268}{%
+           family={Angers},
+           familyi={A\bibinitperiod},
+           given={Denis\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a04a0b32b8ba7a40917580e315127d02}{%
+           family={Arrouays},
+           familyi={A\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod}}}%
+        {{hash=33bc70f9b5aaf3dccf4f439b00dae101}{%
+           family={Chambers},
+           familyi={C\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4e295deff0fba6cfe7baf58249701107}{%
+           family={Chaplot},
+           familyi={C\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4a706a5638da486e84d6084c50813f3b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zueng-Sang},
+           giveni={Z\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=fce5549c249d9937c1ea850fcfef2007}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a35a54d57f3ebfdb85704bdc36753d97}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Bhabani\bibnamedelima S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ad8b77f8b49618d55ca44b50ed18ee2a}{%
+           family={Field},
+           familyi={F\bibinitperiod},
+           given={Damien\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=33276efa53660fe66ee394ba2cfcbf3a}{%
+           family={Gimona},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b59ea00d734d6af6c57a59c59155b14f}{%
+           family={Hedley},
+           familyi={H\bibinitperiod},
+           given={Carolyn\bibnamedelima B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=eea800efb89ff49b70cedf5c54edea71}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Suk\bibnamedelima Young},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=fb01dfdaf89e76f8f0d83d237c7712f6}{%
+           family={Mandal},
+           familyi={M\bibinitperiod},
+           given={Biswapati},
+           giveni={B\bibinitperiod}}}%
+        {{hash=82c70c414410bf3ef67dfc6aa1726e3e}{%
+           family={Marchant},
+           familyi={M\bibinitperiod},
+           given={Ben\bibnamedelima P.},
+           giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=0b90df43ebbdd134f616ef35d0c431f3}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0d364b178a2cbe8052d1a9fd1f4d56ef}{%
+           family={{McConkey}},
+           familyi={M\bibinitperiod},
+           given={Brian\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=640393870f99f65cb0b95374b742003a}{%
+           family={Mulder},
+           familyi={M\bibinitperiod},
+           given={Vera\bibnamedelima Leatitia},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=62289dbb98dd502313a05b471c85ea6a}{%
+           family={O'Rourke},
+           familyi={O\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9f5e50ab8cd4df057ac11b1b09d12caa}{%
+           family={Richer-de-Forges},
+           familyi={R\bibinithyphendelim F\bibinitperiod},
+           given={Anne\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=33a54c3871f04974c6afdb91f27cc5bf}{%
+           family={Odeh},
+           familyi={O\bibinitperiod},
+           given={Inakwu},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5b3c0a46be792fe3c9242c5d8c4875d9}{%
+           family={Padarian},
+           familyi={P\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8abd40456dac57f65ae9b86dd62c539f}{%
+           family={Paustian},
+           familyi={P\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0bbad8b155d88386f3f428252c83c8a6}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Genxing},
+           giveni={G\bibinitperiod}}}%
+        {{hash=60d591a346175031656986758cd7c834}{%
+           family={Poggio},
+           familyi={P\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=30e20c60317ed59bbfbb610b1cb1ca2e}{%
+           family={Savin},
+           familyi={S\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+        {{hash=12e8c9021d5ee1a0fbfb721a88e3176d}{%
+           family={Stolbovoy},
+           familyi={S\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+        {{hash=39b78bbfa027218f352faaf27ff0ee71}{%
+           family={Stockmann},
+           familyi={S\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod}}}%
+        {{hash=0d1a073d5a437d87b1826e5591322c61}{%
+           family={Sulaeman},
+           familyi={S\bibinitperiod},
+           given={Yiyi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=433989943e13ed5ef30897382efcfcc1}{%
+           family={Tsui},
+           familyi={T\bibinitperiod},
+           given={Chun-Chih},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=b38fc4f6f7621a0a008b4daef5f55b47}{%
+           family={Vågen},
+           familyi={V\bibinitperiod},
+           given={Tor-Gunnar},
+           giveni={T\bibinithyphendelim G\bibinitperiod}}}%
+        {{hash=2736c3e02773da0461e4f9f812af28cc}{%
+           family={Wesemael},
+           familyi={W\bibinitperiod},
+           given={Bas},
+           giveni={B\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=39bd6a6742a101234ed7499ada07a232}{%
+           family={Winowiecki},
+           familyi={W\bibinitperiod},
+           given={Leigh},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e236fc867f931268b234e9672e0bb77}
+      \strng{fullhash}{00b2c3896e8283b90148c7a514b5a5a7}
+      \strng{fullhashraw}{00b2c3896e8283b90148c7a514b5a5a7}
+      \strng{bibnamehash}{2e236fc867f931268b234e9672e0bb77}
+      \strng{authorbibnamehash}{2e236fc867f931268b234e9672e0bb77}
+      \strng{authornamehash}{2e236fc867f931268b234e9672e0bb77}
+      \strng{authorfullhash}{00b2c3896e8283b90148c7a514b5a5a7}
+      \strng{authorfullhashraw}{00b2c3896e8283b90148c7a514b5a5a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ‘4 per mille Soils for Food Security and Climate’ was launched at the {COP}21 with an aspiration to increase global soil organic matter stocks by 4 per 1000 (or 0.4 \%) per year as a compensation for the global emissions of greenhouse gases by anthropogenic sources. This paper surveyed the soil organic carbon ({SOC}) stock estimates and sequestration potentials from 20 regions in the world (New Zealand, Chile, South Africa, Australia, Tanzania, Indonesia, Kenya, Nigeria, India, China Taiwan, South Korea, China Mainland, United States of America, France, Canada, Belgium, England \& Wales, Ireland, Scotland, and Russia). We asked whether the 4 per mille initiative is feasible for the region. The outcomes highlight region specific efforts and scopes for soil carbon sequestration. Reported soil C sequestration rates globally show that under best management practices, 4 per mille or even higher sequestration rates can be accomplished. High C sequestration rates (up to 10 per mille) can be achieved for soils with low initial {SOC} stock (topsoil less than 30tCha−1), and at the first twenty years after implementation of best management practices. In addition, areas which have reached equilibrium will not be able to further increase their sequestration. We found that most studies on {SOC} sequestration only consider topsoil (up to 0.3m depth), as it is considered to be most affected by management techniques. The 4 per mille number was based on a blanket calculation of the whole global soil profile C stock, however the potential to increase {SOC} is mostly on managed agricultural lands. If we consider 4 per mille in the top 1m of global agricultural soils, {SOC} sequestration is between 2-3GtCyear−1, which effectively offset 20–35\% of global anthropogenic greenhouse gas emissions. As a strategy for climate change mitigation, soil carbon sequestration buys time over the next ten to twenty years while other effective sequestration and low carbon technologies become viable. The challenge for cropping farmers is to find disruptive technologies that will further improve soil condition and deliver increased soil carbon. Progress in 4 per mille requires collaboration and communication between scientists, farmers, policy makers, and marketeers.}
+      \field{day}{15}
+      \field{issn}{0016-7061}
+      \field{journaltitle}{Geoderma}
+      \field{month}{4}
+      \field{shortjournal}{Geoderma}
+      \field{title}{Soil carbon 4 per mille}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{292}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{59\bibrangedash 86}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/j.geoderma.2017.01.002
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0016706117300095
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0016706117300095
+      \endverb
+      \keyw{Climate change,Greenhouse gases,Soil carbon,Soil carbon sequestration}
+    \endentry
+    \entry{lal_soil_2004}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bff2230bc02ac4d207e48f6658642dc2}{%
+           family={Lal},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{bff2230bc02ac4d207e48f6658642dc2}
+      \strng{fullhash}{bff2230bc02ac4d207e48f6658642dc2}
+      \strng{fullhashraw}{bff2230bc02ac4d207e48f6658642dc2}
+      \strng{bibnamehash}{bff2230bc02ac4d207e48f6658642dc2}
+      \strng{authorbibnamehash}{bff2230bc02ac4d207e48f6658642dc2}
+      \strng{authornamehash}{bff2230bc02ac4d207e48f6658642dc2}
+      \strng{authorfullhash}{bff2230bc02ac4d207e48f6658642dc2}
+      \strng{authorfullhashraw}{bff2230bc02ac4d207e48f6658642dc2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The carbon sink capacity of the world's agricultural and degraded soils is 50 to 66\% of the historic carbon loss of 42 to 78 gigatons of carbon. The rate of soil organic carbon sequestration with adoption of recommended technologies depends on soil texture and structure, rainfall, temperature, farming system, and soil management. Strategies to increase the soil carbon pool include soil restoration and woodland regeneration, no-till farming, cover crops, nutrient management, manuring and sludge application, improved grazing, water conservation and harvesting, efficient irrigation, agroforestry practices, and growing energy crops on spare lands. An increase of 1 ton of soil carbon pool of degraded cropland soils may increase crop yield by 20 to 40 kilograms per hectare (kg/ha) for wheat, 10 to 20 kg/ha for maize, and 0.5 to 1 kg/ha for cowpeas. As well as enhancing food security, carbon sequestration has the potential to offset fossil fuel emissions by 0.4 to 1.2 gigatons of carbon per year, or 5 to 15\% of the global fossil-fuel emissions.}
+      \field{day}{11}
+      \field{issn}{1095-9203}
+      \field{journaltitle}{Science (New York, N.Y.)}
+      \field{month}{6}
+      \field{number}{5677}
+      \field{shortjournal}{Science}
+      \field{title}{Soil carbon sequestration impacts on global climate change and food security}
+      \field{volume}{304}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{1623\bibrangedash 1627}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.1097396
+      \endverb
+      \keyw{Agriculture,Atmosphere,Biomass,Carbon,Carbon Dioxide,Climate,Crops,Agricultural,Ecosystem,Food,Food Supply,Humans,Malnutrition,Poverty,Soil}
+    \endentry
+    \entry{sentinel2}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=57d92d5ce4e41245852acdf1a31ff3b3}{%
+           family={{European Space Agency (ESA)}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{57d92d5ce4e41245852acdf1a31ff3b3}
+      \strng{fullhash}{57d92d5ce4e41245852acdf1a31ff3b3}
+      \strng{fullhashraw}{57d92d5ce4e41245852acdf1a31ff3b3}
+      \strng{bibnamehash}{57d92d5ce4e41245852acdf1a31ff3b3}
+      \strng{authorbibnamehash}{57d92d5ce4e41245852acdf1a31ff3b3}
+      \strng{authornamehash}{57d92d5ce4e41245852acdf1a31ff3b3}
+      \strng{authorfullhash}{57d92d5ce4e41245852acdf1a31ff3b3}
+      \strng{authorfullhashraw}{57d92d5ce4e41245852acdf1a31ff3b3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://sentinel.esa.int/web/sentinel/missions/sentinel-2}}
+      \field{note}{Mission Sentinel-2 MSI, produits L2A}
+      \field{title}{Sentinel-2 User Guide}
+      \field{year}{2025}
+    \endentry
+    \entry{landsat8}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d420ee4f5547b9c1ce285e17f99b6e16}{%
+           family={{United States Geological Survey (USGS)}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{d420ee4f5547b9c1ce285e17f99b6e16}
+      \strng{fullhash}{d420ee4f5547b9c1ce285e17f99b6e16}
+      \strng{fullhashraw}{d420ee4f5547b9c1ce285e17f99b6e16}
+      \strng{bibnamehash}{d420ee4f5547b9c1ce285e17f99b6e16}
+      \strng{authorbibnamehash}{d420ee4f5547b9c1ce285e17f99b6e16}
+      \strng{authornamehash}{d420ee4f5547b9c1ce285e17f99b6e16}
+      \strng{authorfullhash}{d420ee4f5547b9c1ce285e17f99b6e16}
+      \strng{authorfullhashraw}{d420ee4f5547b9c1ce285e17f99b6e16}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.usgs.gov/landsat-missions/landsat-8}}
+      \field{note}{Satellite Landsat-8, OLI/TIRS}
+      \field{title}{Landsat-8 (OLI/TIRS) Data Users Handbook}
+      \field{year}{2025}
+    \endentry
+    \entry{srtm}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e4b3a3d4681dbce70807e5868ef4f8e8}{%
+           family={{NASA JPL}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4b3a3d4681dbce70807e5868ef4f8e8}
+      \strng{fullhash}{e4b3a3d4681dbce70807e5868ef4f8e8}
+      \strng{fullhashraw}{e4b3a3d4681dbce70807e5868ef4f8e8}
+      \strng{bibnamehash}{e4b3a3d4681dbce70807e5868ef4f8e8}
+      \strng{authorbibnamehash}{e4b3a3d4681dbce70807e5868ef4f8e8}
+      \strng{authornamehash}{e4b3a3d4681dbce70807e5868ef4f8e8}
+      \strng{authorfullhash}{e4b3a3d4681dbce70807e5868ef4f8e8}
+      \strng{authorfullhashraw}{e4b3a3d4681dbce70807e5868ef4f8e8}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www2.jpl.nasa.gov/srtm/}}
+      \field{note}{Modèle numérique de terrain global, résolution 30 m}
+      \field{title}{Shuttle Radar Topography Mission (SRTM) DEM}
+      \field{year}{2000}
+    \endentry
+    \entry{isdasoil}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=29a330d76bc19f87e320ff1c70b4cf8c}{%
+           family={{Innovative Solutions for Decision Agriculture (iSDA)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{29a330d76bc19f87e320ff1c70b4cf8c}
+      \strng{fullhash}{29a330d76bc19f87e320ff1c70b4cf8c}
+      \strng{fullhashraw}{29a330d76bc19f87e320ff1c70b4cf8c}
+      \strng{bibnamehash}{29a330d76bc19f87e320ff1c70b4cf8c}
+      \strng{authorbibnamehash}{29a330d76bc19f87e320ff1c70b4cf8c}
+      \strng{authornamehash}{29a330d76bc19f87e320ff1c70b4cf8c}
+      \strng{authorfullhash}{29a330d76bc19f87e320ff1c70b4cf8c}
+      \strng{authorfullhashraw}{29a330d76bc19f87e320ff1c70b4cf8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://isda-africa.com/isdasoil/}}
+      \field{note}{Cartes pédologiques de l’Afrique à haute résolution (30 m)}
+      \field{title}{iSDAsoil - African Soil Property Maps}
+      \field{year}{2020}
+    \endentry
+    \entry{soilgrids}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e6ce9bd0c261e516a4a5c6c36537dfd0}{%
+           family={{ISRIC - World Soil Information}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{fullhash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{fullhashraw}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{bibnamehash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{authorbibnamehash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{authornamehash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{authorfullhash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{authorfullhashraw}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \field{extraname}{1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://soilgrids.org/}}
+      \field{note}{Cartes mondiales de propriétés du sol (250 m – 1 km)}
+      \field{title}{SoilGrids - global predictions of soil properties}
+      \field{year}{2020}
+    \endentry
+    \entry{cressie_geostatistics_1989}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1d684a7b784094856b0f4832104839c4}{%
+           family={Cressie},
+           familyi={C\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{fullhash}{1d684a7b784094856b0f4832104839c4}
+      \strng{fullhashraw}{1d684a7b784094856b0f4832104839c4}
+      \strng{bibnamehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authorbibnamehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authornamehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authorfullhash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authorfullhashraw}{1d684a7b784094856b0f4832104839c4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Most data have a space and time label associated with them; data that are close together are usually more correlated than those that are far apart. Prediction (or forecasting) of a process at a particular label where there is no datum, from observed nearby data, is the subject of this article. One approach, known as geostatistics, is featured, from which linear methods of spatial prediction (kriging) will be considered. Brief reference is made to other linear/nonlinear, stochastic/deterministic predictors. The (linear) geostatistical method is applied to piezometric-head data around a potential nuclear-waste repository site.}
+      \field{day}{1}
+      \field{issn}{0003-1305}
+      \field{journaltitle}{The American Statistician}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{Geostatistics}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{43}
+      \field{year}{1989}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{197\bibrangedash 202}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1080/00031305.1989.10475658
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/00031305.1989.10475658
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/00031305.1989.10475658
+      \endverb
+      \keyw{Anisotropy,Covariance function,Isotropy,Kriging,Spatial statistics,Stationarity,Trend,Variogram}
+    \endentry
+    \entry{liu_transfer_2018}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=797425f8425b2d81dfa9465ca37995d1}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Lanfa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7c3984e31d3b4f6ded7600ce18c9c571}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cb16d4bfddaaccdc7d1e6a6fe008bdbc}{%
+           family={Buchroithner},
+           familyi={B\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f75c62452a9cf4720041a70c79e5818}
+      \strng{fullhash}{0f75c62452a9cf4720041a70c79e5818}
+      \strng{fullhashraw}{0f75c62452a9cf4720041a70c79e5818}
+      \strng{bibnamehash}{0f75c62452a9cf4720041a70c79e5818}
+      \strng{authorbibnamehash}{0f75c62452a9cf4720041a70c79e5818}
+      \strng{authornamehash}{0f75c62452a9cf4720041a70c79e5818}
+      \strng{authorfullhash}{0f75c62452a9cf4720041a70c79e5818}
+      \strng{authorfullhashraw}{0f75c62452a9cf4720041a70c79e5818}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Soil spectra are often measured in the laboratory, and there is an increasing number of large-scale soil spectral libraries establishing across the world. However, calibration models developed from soil libraries are difficult to apply to spectral data acquired from the field or space. Transfer learning has the potential to bridge the gap and make the calibration model transferrable from one sensor to another. The objective of this study is to explore the potential of transfer learning for soil spectroscopy and its performance on soil clay content estimation using hyperspectral data. First, a one-dimensional convolutional neural network (1D-{CNN}) is used on Land Use/Land Cover Area Frame Survey ({LUCAS}) mineral soils. To evaluate whether the pre-trained 1D-{CNN} model was transferrable, {LUCAS} organic soils were used to fine-tune and validate the model. The fine-tuned model achieved a good accuracy (coefficient of determination (R2) = 0.756, root-mean-square error ({RMSE}) = 7.07 and ratio of percent deviation ({RPD}) = 2.26) for the estimation of clay content. Spectral index, as suggested as a simple transferrable feature, was also explored on {LUCAS} data, but did not performed well on the estimation of clay content. Then, the pre-trained 1D-{CNN} model was further fine-tuned by field samples collect in the study area with spectra extracted from {HyMap} imagery, achieved an accuracy of R2 = 0.601, {RMSE} = 8.62 and {RPD} = 1.54. Finally, the soil clay map was generated with the fine-tuned 1D-{CNN} model and hyperspectral data.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Transfer Learning for Soil Spectroscopy Based on Convolutional Neural Networks and Its Application in Soil Clay Content Mapping Using Hyperspectral Imagery}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3169}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s18093169
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/18/9/3169
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/18/9/3169
+      \endverb
+      \keyw{{CNNs},deep learning,hyperspectral imagery,soil spectroscopy,transfer learning}
+    \endentry
+    \entry{dong_prediction_2024}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=dd74cc93ca4053cdf4a6438ce4e4124b}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Zhaowei},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=6e8571a39105480199c2a88ca8586006}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3164a01386842bbe53fa26e864b03243}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Yilin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=df077a8bd2a92400f57e810df342e400}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jiahua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0fb5f083d6f9232018152f5aae1125ea}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Fengmei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b24a73255c6036d858c2b04d5cbc0bb3}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Linyan},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1c3e98f8dd864ef163432ed378822419}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Peixin},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccecefdbffd27e707931308febbb5b0a}
+      \strng{fullhash}{cb64f5d45613018a05c8b8c993a4ce7c}
+      \strng{fullhashraw}{cb64f5d45613018a05c8b8c993a4ce7c}
+      \strng{bibnamehash}{cb64f5d45613018a05c8b8c993a4ce7c}
+      \strng{authorbibnamehash}{cb64f5d45613018a05c8b8c993a4ce7c}
+      \strng{authornamehash}{ccecefdbffd27e707931308febbb5b0a}
+      \strng{authorfullhash}{cb64f5d45613018a05c8b8c993a4ce7c}
+      \strng{authorfullhashraw}{cb64f5d45613018a05c8b8c993a4ce7c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Synthesizing bare soil pictures in regions with complex vegetation is challenging, which hinders the accuracy of predicting soil organic carbon ({SOC}) in specific areas. An {SOC} prediction model was developed in this study by integrating the convolutional neural network and long and short-term memory network ({CNN}-{LSTM}) algorithms, taking into consideration soil-forming factors such as climate, vegetation, and topography in Hainan. Compared with common algorithmic models (random forest, {CNN}, {LSTM}), the {SOC} prediction model based on the {CNN}-{LSTM} algorithm achieved high accuracy (R2 = 0.69, {RMSE} = 6.06 g kg−1, {RPIQ} = 1.96). The model predicted that the {SOC} content ranged from 5.49 to 36.68 g kg−1, with Hainan in the central and southern parts of the region with high {SOC} values and the surrounding areas with low {SOC} values, and that the {SOC} was roughly distributed as follows: high in the mountainous areas and low in the flat areas. Among the four models, {CNN}-{LSTM} outperformed {LSTM}, {CNN}, and random forest models in terms of R2 accuracy by 11.3\%, 23.2\%, and 53.3\%, respectively. The {CNN}-{LSTM} model demonstrates its applicability in predicting {SOC} content and shows great potential in complex areas where obtaining sample data is challenging and where {SOC} is influenced by multiple interacting factors. Furthermore, it shows significant potential for advancing the broader field of digital soil mapping.}
+      \field{issn}{2073-445X}
+      \field{journaltitle}{Land}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{Prediction of Soil Organic Carbon Content in Complex Vegetation Areas Based on {CNN}-{LSTM} Model}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{915}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/land13070915
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-445X/13/7/915
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-445X/13/7/915
+      \endverb
+      \keyw{convolutional neural network,deep learning,short-term and long-term memory,soil organic carbon}
+    \endentry
+    \entry{roberts_cross-validation_2017}{article}{}{}
+      \name{author}{14}{}{%
+        {{hash=8757785039815c2ae72c0ad4e86db274}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8e9658f7695f7b67acfc882eaeadb45f}{%
+           family={Bahn},
+           familyi={B\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=09e171ca6fbd23492244a680bf33d115}{%
+           family={Ciuti},
+           familyi={C\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dc81c7f9cae28796afb9c45efce6d849}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=22e158108d166fcb5d64aab03da6300f}{%
+           family={Elith},
+           familyi={E\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1f1a495648ba3bad5ada18ad5f02fa0f}{%
+           family={Guillera-Arroita},
+           familyi={G\bibinithyphendelim A\bibinitperiod},
+           given={Gurutzeta},
+           giveni={G\bibinitperiod}}}%
+        {{hash=749971ea84887e346c6c48401b051b32}{%
+           family={Hauenstein},
+           familyi={H\bibinitperiod},
+           given={Severin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=039c23fb4b08573d813878c388cc3b4a}{%
+           family={Lahoz-Monfort},
+           familyi={L\bibinithyphendelim M\bibinitperiod},
+           given={José\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5ee0107bf08c27fc0a3e192f04dbe6df}{%
+           family={Schröder},
+           familyi={S\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1ba59c28f90db059d902fa5b3248b41c}{%
+           family={Warton},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=aeccd33e04ed4951aa8e89c1c059b554}{%
+           family={Wintle},
+           familyi={W\bibinitperiod},
+           given={Brendan\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f2023df7507c5721104bd31350623c8c}{%
+           family={Hartig},
+           familyi={H\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e58ec5a72f2b79de033f264f720ad88c}{%
+           family={Dormann},
+           familyi={D\bibinitperiod},
+           given={Carsten\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0e0955684122d4025d2671d18c95203}
+      \strng{fullhash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{fullhashraw}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{bibnamehash}{c0e0955684122d4025d2671d18c95203}
+      \strng{authorbibnamehash}{c0e0955684122d4025d2671d18c95203}
+      \strng{authornamehash}{c0e0955684122d4025d2671d18c95203}
+      \strng{authorfullhash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{authorfullhashraw}{a4abb5c445cb2b1c726724b4683fd324}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ecological data often show temporal, spatial, hierarchical (random effects), or phylogenetic structure. Modern statistical approaches are increasingly accounting for such dependencies. However, when performing cross-validation, these structures are regularly ignored, resulting in serious underestimation of predictive error. One cause for the poor performance of uncorrected (random) cross-validation, noted often by modellers, are dependence structures in the data that persist as dependence structures in model residuals, violating the assumption of independence. Even more concerning, because often overlooked, is that structured data also provides ample opportunity for overfitting with non-causal predictors. This problem can persist even if remedies such as autoregressive models, generalized least squares, or mixed models are used. Block cross-validation, where data are split strategically rather than randomly, can address these issues. However, the blocking strategy must be carefully considered. Blocking in space, time, random effects or phylogenetic distance, while accounting for dependencies in the data, may also unwittingly induce extrapolations by restricting the ranges or combinations of predictor variables available for model training, thus overestimating interpolation errors. On the other hand, deliberate blocking in predictor space may also improve error estimates when extrapolation is the modelling goal. Here, we review the ecological literature on non-random and blocked cross-validation approaches. We also provide a series of simulations and case studies, in which we show that, for all instances tested, block cross-validation is nearly universally more appropriate than random cross-validation if the goal is predicting to new data or predictor space, or for selecting causal predictors. We recommend that block cross-validation be used wherever dependence structures exist in a dataset, even if no correlation structure is visible in the fitted model residuals, or if the fitted models account for such correlations.}
+      \field{issn}{1600-0587}
+      \field{journaltitle}{Ecography}
+      \field{langid}{english}
+      \field{number}{8}
+      \field{title}{Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{40}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{913\bibrangedash 929}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/ecog.02881
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ecog.02881
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ecog.02881
+      \endverb
+    \endentry
+    \entry{vaysse_using_2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=7dc9c59ac22d51091b0fae355c841d16}{%
+           family={Vaysse},
+           familyi={V\bibinitperiod},
+           given={Kévin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a02471205cd05985da43a4c316386155}{%
+           family={Lagacherie},
+           familyi={L\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9837ec4f8ab831e2cc2081a5fb7024bb}
+      \strng{fullhash}{9837ec4f8ab831e2cc2081a5fb7024bb}
+      \strng{fullhashraw}{9837ec4f8ab831e2cc2081a5fb7024bb}
+      \strng{bibnamehash}{9837ec4f8ab831e2cc2081a5fb7024bb}
+      \strng{authorbibnamehash}{9837ec4f8ab831e2cc2081a5fb7024bb}
+      \strng{authornamehash}{9837ec4f8ab831e2cc2081a5fb7024bb}
+      \strng{authorfullhash}{9837ec4f8ab831e2cc2081a5fb7024bb}
+      \strng{authorfullhashraw}{9837ec4f8ab831e2cc2081a5fb7024bb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Digital Soil Mapping ({DSM}) products are simplified representations of more complex and partially unknown patterns of soil variations. Therefore, any prediction of a soil property that can be derived from these products has an irreducible uncertainty that needs to be mapped. The objective of this study was to compare the most current {DSM} method – Regression Kriging ({RK}) – with a new approach derived from {RandomForest} – Quantile Regression Forest ({QRF}) – in regard to their ability of predicting the uncertainties of {GlobalSoilMap} soil property grids. The comparison was performed for three soil properties, {pH}, organic carbon and clay content at 5–15cm depth in a 27,236km2 Mediterranean French region with sparse sets of measured soil profiles (1/13.5km2) and for a set of environmental covariates characterizing the relief, climate, geology and land use of the region. Apart from classical performance indicators, comparisons involved accuracy plots and the visual examinations of the uncertainty maps provided by the two methods. The results obtained for the three soil properties showed that {QRF} provided more accurate and more interpretable predicted patterns of uncertainty than {RK} did, while having similar performances in predicting soil properties. The use of {QRF} in operational {DSM} is therefore recommended, especially when spatial sampling of soil observations are too sparse for applying {RK}.}
+      \field{day}{1}
+      \field{issn}{0016-7061}
+      \field{journaltitle}{Geoderma}
+      \field{month}{4}
+      \field{shortjournal}{Geoderma}
+      \field{title}{Using quantile regression forest to estimate uncertainty of digital soil mapping products}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{291}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{55\bibrangedash 64}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.geoderma.2016.12.017
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S001670611631059X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S001670611631059X
+      \endverb
+      \keyw{Digital soil mapping,{GlobalSoilMap},Quantile regression forest,Regional scale,Uncertainties}
+    \endentry
+    \entry{Thiam2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=5b37a227bc1d105e2674507b0f33fad1}{%
+           family={Thiam},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UMMISCO Sénégal}%
+      }
+      \strng{namehash}{5b37a227bc1d105e2674507b0f33fad1}
+      \strng{fullhash}{5b37a227bc1d105e2674507b0f33fad1}
+      \strng{fullhashraw}{5b37a227bc1d105e2674507b0f33fad1}
+      \strng{bibnamehash}{5b37a227bc1d105e2674507b0f33fad1}
+      \strng{authorbibnamehash}{5b37a227bc1d105e2674507b0f33fad1}
+      \strng{authornamehash}{5b37a227bc1d105e2674507b0f33fad1}
+      \strng{authorfullhash}{5b37a227bc1d105e2674507b0f33fad1}
+      \strng{authorfullhashraw}{5b37a227bc1d105e2674507b0f33fad1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cartographie du carbone organique du sol à partir des images Sentinel-2 dans le bassin du Ferlo}
+      \field{type}{Master's thesis}
+      \field{year}{2023}
+    \endentry
+    \entry{org-ummisco-2025}{online}{}{}
+      \list{organization}{1}{%
+        {IRD \& Université Cheikh Anta Diop (UCAD)}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Unité Mixte Internationale IRD/UCAD}
+      \field{title}{UMMISCO: Unité Mixte Internationale de Modélisation Mathématique et Informatique des Systèmes Complexes}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ummisco.ird.fr/
+      \endverb
+      \verb{url}
+      \verb https://ummisco.ird.fr/
+      \endverb
+    \endentry
+    \entry{org-ird-2025}{online}{}{}
+      \list{organization}{1}{%
+        {IRD}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Organisme public de recherche}
+      \field{title}{Institut de Recherche pour le Développement (IRD)}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ird.fr/
+      \endverb
+      \verb{url}
+      \verb https://www.ird.fr/
+      \endverb
+    \endentry
+    \entry{org-slam-b-2025}{online}{}{}
+      \list{organization}{1}{%
+        {Institut de Recherche pour le Développement (IRD)}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Programme de recherche sur la gestion durable des terres}
+      \field{title}{SLAM{-}B: Soil Land and Agroecosystem Management in the Ferlo Basin}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ird.fr/
+      \endverb
+      \verb{url}
+      \verb https://www.ird.fr/
+      \endverb
+    \endentry
+    \entry{afsp}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1205ec05828f1e585a925fbe153f8952}{%
+           family={{International Soil Reference and Information Centre (ISRIC) and partners}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1205ec05828f1e585a925fbe153f8952}
+      \strng{fullhash}{1205ec05828f1e585a925fbe153f8952}
+      \strng{fullhashraw}{1205ec05828f1e585a925fbe153f8952}
+      \strng{bibnamehash}{1205ec05828f1e585a925fbe153f8952}
+      \strng{authorbibnamehash}{1205ec05828f1e585a925fbe153f8952}
+      \strng{authornamehash}{1205ec05828f1e585a925fbe153f8952}
+      \strng{authorfullhash}{1205ec05828f1e585a925fbe153f8952}
+      \strng{authorfullhashraw}{1205ec05828f1e585a925fbe153f8952}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.isric.org/projects/africa-soil-profiles-database}}
+      \field{note}{Base de données de 18 533 profils pédologiques à l’échelle continentale}
+      \field{title}{Africa Soil Profiles Database (AfSP v1.2)}
+      \field{year}{2013}
+    \endentry
+    \entry{wosis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e6ce9bd0c261e516a4a5c6c36537dfd0}{%
+           family={{ISRIC - World Soil Information}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{fullhash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{fullhashraw}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{bibnamehash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{authorbibnamehash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{authornamehash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{authorfullhash}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \strng{authorfullhashraw}{e6ce9bd0c261e516a4a5c6c36537dfd0}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.isric.org/explore/wosis}}
+      \field{note}{Base mondiale de profils pédologiques harmonisés}
+      \field{title}{World Soil Information Service (WoSIS)}
+      \field{year}{2020}
+    \endentry
+    \entry{cloete_how_2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=25af80af22b69bc89af42ed359615449}{%
+           family={Cloete},
+           familyi={C\bibinitperiod},
+           given={Willie\bibnamedelima Herman},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=262730f1b7efa83f52cc8ab383caccbc}{%
+           family={Preez},
+           familyi={P\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod},
+           prefix={du},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=d824853eadef048dee8de717c980f129}{%
+           family={Van\bibnamedelima Zijl},
+           familyi={V\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={George\bibnamedelima Munnik},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a2a2ad9c06a070950e5d3e95e2e7a62}
+      \strng{fullhash}{6a2a2ad9c06a070950e5d3e95e2e7a62}
+      \strng{fullhashraw}{6a2a2ad9c06a070950e5d3e95e2e7a62}
+      \strng{bibnamehash}{6a2a2ad9c06a070950e5d3e95e2e7a62}
+      \strng{authorbibnamehash}{6a2a2ad9c06a070950e5d3e95e2e7a62}
+      \strng{authornamehash}{6a2a2ad9c06a070950e5d3e95e2e7a62}
+      \strng{authorfullhash}{6a2a2ad9c06a070950e5d3e95e2e7a62}
+      \strng{authorfullhashraw}{6a2a2ad9c06a070950e5d3e95e2e7a62}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reliable soil organic carbon stocks ({SOCS}) maps are important for accurately assessing carbon credits. To address this gap, the study aimed to determine whether conventional mapping using ordinary kriging ({OK}) or digital soil mapping ({DSM}) with machine learning ({ML}) could be used for mapping {SOCS} at a field scale in South Africa. At two fields, fifty samples from three depths, 0–5, 5–15 and 15–30 cm were collected and analysed for soil organic carbon ({SOC}) content using the total dry combustion method. For dry bulk density (ρb), a pedo-transfer function was created for predicting the ρb at unsampled locations. Maps for {SOC} content, ρb and {SOCS} were created using {OK} and {DSM} and assessed with evaluation statistics including root mean square error ({RMSE}) and Lin’s concordance correlation coefficient (ρc). A calculate-first approach (calculate {SOCS} and then map it) and map-first approach (map {SOC}, ρb and then calculate {SOCS}) were compared. Findings of this study demonstrated that {DSM} should be used rather than {OK} for mapping {SOCS} at the field scale in South Africa. Utilising {DSM} will lead to more accurate and reliable {SOCS} maps. However, the results also indicated that the {SOC} content, ρb and {SOCS} maps need to be improved. To increase the accuracy of maps generated using {DSM}, additional soil samples need to be collected, and field scale covariates should be incorporated. The results were inconclusive regarding whether the calculate-first approach or the map-first approach should be used when utilising {OK} or {DSM}. Nevertheless, the study concluded that the calculate-first approach should be considered, because this approach is simpler and might lead to more reliable and accurate {SOCS} estimations.}
+      \field{day}{1}
+      \field{issn}{2950-2896}
+      \field{journaltitle}{Soil Advances}
+      \field{month}{6}
+      \field{shortjournal}{Soil Advances}
+      \field{title}{How to map soil organic carbon stocks at field scale in South Africa?}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{3}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{100047}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.soilad.2025.100047
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2950289625000156
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2950289625000156
+      \endverb
+      \keyw{Carbon sequestration,Cubist,Machine learning,Random forest,Regenerative agriculture,Support vector machines}
+    \endentry
+    \entry{behrens_digital_2005}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=4b79cdbdc6594e329bd134b36d193e94}{%
+           family={Behrens},
+           familyi={B\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=21600a4d1c5158bc0133e0e76e05da9c}{%
+           family={Förster},
+           familyi={F\bibinitperiod},
+           given={Helga},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2051b6bf97d4c94edd6ac8d56c6bb8a9}{%
+           family={Scholten},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9f5586428b4be3830930648d6f2c17f0}{%
+           family={Steinrücken},
+           familyi={S\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+        {{hash=8080edef4a504e474d37bc37761be007}{%
+           family={Spies},
+           familyi={S\bibinitperiod},
+           given={Ernst-Dieter},
+           giveni={E\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=ce943423a72ce9641abac149fffc8abb}{%
+           family={Goldschmitt},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ff4496fbc0e9ad8fe793912d3b07e97}
+      \strng{fullhash}{950d52d3730e8c62d0cd0fab5c3bafe9}
+      \strng{fullhashraw}{950d52d3730e8c62d0cd0fab5c3bafe9}
+      \strng{bibnamehash}{950d52d3730e8c62d0cd0fab5c3bafe9}
+      \strng{authorbibnamehash}{950d52d3730e8c62d0cd0fab5c3bafe9}
+      \strng{authornamehash}{8ff4496fbc0e9ad8fe793912d3b07e97}
+      \strng{authorfullhash}{950d52d3730e8c62d0cd0fab5c3bafe9}
+      \strng{authorfullhashraw}{950d52d3730e8c62d0cd0fab5c3bafe9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the context of a growing demand of high-resolution spatial soil information for environmental planning and modeling, fast and accurate prediction methods are needed to provide high-quality digital soil maps. Thus, this study focuses on the development of a methodology based on artificial neural networks ({ANN}) that is able to spatially predict soil units. Within a test area in Rhineland-Palatinate (Germany), covering an area of about 600 km2, a digital soil map was predicted. Based on feed-forward {ANN} with the resilient backpropagation learning algorithm, the optimal network topology was determined with one hidden layer and 15 to 30 cells depending on the soil unit to be predicted. To describe the occurrence of a soil unit and to train the {ANN}, 69 different terrain attributes, 53 geologic-petrographic units, and 3 types of land use were extracted from existing maps and databases. 80\% of the predicted soil units (n = 33) showed training errors (mean square error) of the {ANN} below 0.1, 43\% were even below 0.05. Validation returned a mean accuracy of over 92\% for the trained network outputs. Altogether, the presented methodology based on {ANN} and an extended digital terrain-analysis approach is time-saving and cost effective and provides remarkable results.}
+      \field{issn}{1522-2624}
+      \field{journaltitle}{Journal of Plant Nutrition and Soil Science}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Digital soil mapping using artificial neural networks}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{168}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{21\bibrangedash 33}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1002/jpln.200421414
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jpln.200421414
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jpln.200421414
+      \endverb
+      \keyw{{GIS},artificial neural networks,data mining,digital soil maps,digital terrain analysis,predictive soil mapping,soil survey}
+    \endentry
+    \entry{zayani_using_2023}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=1b3e665b9ef42bffc8967aed79d7ee3d}{%
+           family={Zayani},
+           familyi={Z\bibinitperiod},
+           given={Hayfa},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bfdc7874ddb7702a1378ab80f92d0389}{%
+           family={Fouad},
+           familyi={F\bibinitperiod},
+           given={Youssef},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bf9cd5c6cad71ef22167df8c18387c5a}{%
+           family={Michot},
+           familyi={M\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+        {{hash=93973ad811ef2ade0777a8a88299f331}{%
+           family={Kassouk},
+           familyi={K\bibinitperiod},
+           given={Zeineb},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f500fc41e8a140e08e426cb02f1a500a}{%
+           family={Baghdadi},
+           familyi={B\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6caef619d6faee95385112660a6b80c4}{%
+           family={Vaudour},
+           familyi={V\bibinitperiod},
+           given={Emmanuelle},
+           giveni={E\bibinitperiod}}}%
+        {{hash=de2be2d2d2cb148ec6dcda5d03bc57a4}{%
+           family={Lili-Chabaane},
+           familyi={L\bibinithyphendelim C\bibinitperiod},
+           given={Zohra},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f976600a12c97df293e0f22ab33dfd11}{%
+           family={Walter},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca14cd35be9976a8b9cc57311d684120}
+      \strng{fullhash}{97dbcb2522d9973ce4247caa2b25428b}
+      \strng{fullhashraw}{97dbcb2522d9973ce4247caa2b25428b}
+      \strng{bibnamehash}{97dbcb2522d9973ce4247caa2b25428b}
+      \strng{authorbibnamehash}{97dbcb2522d9973ce4247caa2b25428b}
+      \strng{authornamehash}{ca14cd35be9976a8b9cc57311d684120}
+      \strng{authorfullhash}{97dbcb2522d9973ce4247caa2b25428b}
+      \strng{authorfullhashraw}{97dbcb2522d9973ce4247caa2b25428b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding spatial and temporal variability in soil organic carbon ({SOC}) content helps simultaneously assess soil fertility and several parameters that are strongly associated with it, such as structural stability, nutrient cycling, biological activity, and soil aeration. Therefore, it appears necessary to monitor {SOC} regularly and investigate rapid, non-destructive, and cost-effective approaches for doing so, such as proximal and remote sensing. To increase the accuracy of predictions of {SOC} content, this study evaluated combining remote sensing time series with laboratory spectral measurements using machine and deep-learning algorithms. Partial least squares ({PLS}) regression, random forest ({RF}), and deep neural network ({DNN}) models were developed using Sentinel-2 (S2) time series of 58 sampling points of bare soil and according to three approaches. In the first approach, only S2 bands were used to calibrate and compare the performance of the models. In the second, S2 indices, Sentinel-1 (S1) indices, and S1 soil moisture were added separately during model calibration to evaluate their effects individually and then together. In the third, we added the laboratory indices incrementally and tested their influence on model accuracy. Using only S2 bands, the {DNN} model outperformed the {PLS} and {RF} models (ratio of performance to the interquartile distance {RPIQ} = 0.79, 1.36 and 1.67, respectively). Additional information improved performances only for model calibration, with S1 soil moisture yielding the most stable improvement among three iterations. Including equivalent indices of the S2 indices calculated using soil spectra obtained under laboratory conditions improved prediction of {SOC}, and the use of only two indices achieved good validation performances for the {RF} and {DNN} models (mean {RPIQ} = 2.01 and 1.77, respectively).}
+      \field{issn}{2072-4292}
+      \field{journaltitle}{Remote Sensing}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{17}
+      \field{title}{Using Machine-Learning Algorithms to Predict Soil Organic Carbon Content from Combined Remote Sensing Imagery and Laboratory Vis-{NIR} Spectral Datasets}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{4264}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/rs15174264
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2072-4292/15/17/4264
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2072-4292/15/17/4264
+      \endverb
+      \keyw{Sentinel-1,Sentinel-2,deep learning,radar indices,soil moisture,soil organic carbon,spectral indices,visible-near-infrared spectra}
+    \endentry
+    \entry{mcbratney_digital_2003}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f5d498080ce164119ebad8286687abd}{%
+           family={{McBratney}},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi B},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=46e3bc0dad79a55971ac6b4bfc0a0015}{%
+           family={Mendonça\bibnamedelima Santos},
+           familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={M.\bibnamedelimi L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=faeee4c6673816dc255ab1f784bf0b0f}{%
+           family={Minasny},
+           familyi={M\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b85f4850c1753f395d5e95b7deb8c65d}
+      \strng{fullhash}{b85f4850c1753f395d5e95b7deb8c65d}
+      \strng{fullhashraw}{b85f4850c1753f395d5e95b7deb8c65d}
+      \strng{bibnamehash}{b85f4850c1753f395d5e95b7deb8c65d}
+      \strng{authorbibnamehash}{b85f4850c1753f395d5e95b7deb8c65d}
+      \strng{authornamehash}{b85f4850c1753f395d5e95b7deb8c65d}
+      \strng{authorfullhash}{b85f4850c1753f395d5e95b7deb8c65d}
+      \strng{authorfullhashraw}{b85f4850c1753f395d5e95b7deb8c65d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We review various recent approaches to making digital soil maps based on geographic information systems ({GIS}) data layers, note some commonalities and propose a generic framework for the future. We discuss the various methods that have been, or could be, used for fitting quantitative relationships between soil properties or classes and their ‘environment’. These include generalised linear models, classification and regression trees, neural networks, fuzzy systems and geostatistics. We also review the data layers that have been, or could be, used to describe the ‘environment’. Terrain attributes derived from digital elevation models, and spectral reflectance bands from satellite imagery, have been the most commonly used, but there is a large potential for new data layers. The generic framework, which we call the scorpan-{SSPFe} (soil spatial prediction function with spatially autocorrelated errors) method, is particularly relevant for those places where soil resource information is limited. It is based on the seven predictive scorpan factors, a generalisation of Jenny's five factors, namely: (1) s: soil, other or previously measured attributes of the soil at a point; (2) c: climate, climatic properties of the environment at a point; (3) o: organisms, including land cover and natural vegetation; (4) r: topography, including terrain attributes and classes; (5) p: parent material, including lithology; (6) a: age, the time factor; (7) n: space, spatial or geographic position. Interactions (*) between these factors are also considered. The scorpan-{SSPFe} method essentially involves the following steps: (i) Define soil attribute(s) of interest and decide resolution ρ and block size β.(ii) Assemble data layers to represent Q.(iii) Spatial decomposition or lagging of data layers.(iv) Sampling of assembled data (Q) to obtain sampling sites.(v) {GPS} field sampling and laboratory analysis to obtain soil class or property data.(vi) Fit quantitative relationships (observing Ockham's razor) with autocorrelated errors.(vii) Predict digital map.(viii) Field sampling and laboratory analysis for corroboration and quality testing.(ix) If necessary, simplify legend or decrease resolution by returning to (i) or improve map by returning to (v). Finally, possible applications, problems and improvements are discussed.}
+      \field{day}{1}
+      \field{issn}{0016-7061}
+      \field{journaltitle}{Geoderma}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{Geoderma}
+      \field{title}{On digital soil mapping}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{117}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{3\bibrangedash 52}
+      \range{pages}{50}
+      \verb{doi}
+      \verb 10.1016/S0016-7061(03)00223-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0016706103002234
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0016706103002234
+      \endverb
+      \keyw{Classification tree,{DEM},{DTM},Digital map,{GAM},{GIS},Generalised linear model,Geophysics,Geostatistics,Neural network,Pedometrics,Pedotransfer function,Regression tree,Remote sensing,Soil map,Soil spatial prediction function,Soil survey,Wavelets}
+    \endentry
+    \entry{copernicus_dem}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=942556d3a935d0b744f823819b15b8db}{%
+           family={{European Space Agency (ESA) and EU Copernicus Programme}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{942556d3a935d0b744f823819b15b8db}
+      \strng{fullhash}{942556d3a935d0b744f823819b15b8db}
+      \strng{fullhashraw}{942556d3a935d0b744f823819b15b8db}
+      \strng{bibnamehash}{942556d3a935d0b744f823819b15b8db}
+      \strng{authorbibnamehash}{942556d3a935d0b744f823819b15b8db}
+      \strng{authornamehash}{942556d3a935d0b744f823819b15b8db}
+      \strng{authorfullhash}{942556d3a935d0b744f823819b15b8db}
+      \strng{authorfullhashraw}{942556d3a935d0b744f823819b15b8db}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model}}
+      \field{note}{Modèle numérique de terrain global, résolution 30 m et 90 m}
+      \field{title}{Copernicus DEM}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{slam-b}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=69efe9c8b058c80fec4e290295b09e60}{%
+           family={{Institut de Recherche pour le Développement (IRD)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{69efe9c8b058c80fec4e290295b09e60}
+      \strng{fullhash}{69efe9c8b058c80fec4e290295b09e60}
+      \strng{fullhashraw}{69efe9c8b058c80fec4e290295b09e60}
+      \strng{bibnamehash}{69efe9c8b058c80fec4e290295b09e60}
+      \strng{authorbibnamehash}{69efe9c8b058c80fec4e290295b09e60}
+      \strng{authornamehash}{69efe9c8b058c80fec4e290295b09e60}
+      \strng{authorfullhash}{69efe9c8b058c80fec4e290295b09e60}
+      \strng{authorfullhashraw}{69efe9c8b058c80fec4e290295b09e60}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ird.fr/}}
+      \field{note}{Programme de recherche sur la gestion durable des terres}
+      \field{title}{SLAM-B Project: Soil Land and Agroecosystem Management in the Ferlo Basin}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{ummisco}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=df46de47d548ff1b63f8b7d3e4e92031}{%
+           family={{IRD and Université Cheikh Anta Diop (UCAD)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{df46de47d548ff1b63f8b7d3e4e92031}
+      \strng{fullhash}{df46de47d548ff1b63f8b7d3e4e92031}
+      \strng{fullhashraw}{df46de47d548ff1b63f8b7d3e4e92031}
+      \strng{bibnamehash}{df46de47d548ff1b63f8b7d3e4e92031}
+      \strng{authorbibnamehash}{df46de47d548ff1b63f8b7d3e4e92031}
+      \strng{authornamehash}{df46de47d548ff1b63f8b7d3e4e92031}
+      \strng{authorfullhash}{df46de47d548ff1b63f8b7d3e4e92031}
+      \strng{authorfullhashraw}{df46de47d548ff1b63f8b7d3e4e92031}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://ummisco.ird.fr/}}
+      \field{note}{Unité Mixte Internationale IRD/UCAD}
+      \field{title}{UMMISCO: Unité Mixte Internationale de Modélisation Mathématique et Informatique des Systèmes Complexes}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{ird}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=8539a4cc99e302036cff498622533243}{%
+           family={{IRD}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{8539a4cc99e302036cff498622533243}
+      \strng{fullhash}{8539a4cc99e302036cff498622533243}
+      \strng{fullhashraw}{8539a4cc99e302036cff498622533243}
+      \strng{bibnamehash}{8539a4cc99e302036cff498622533243}
+      \strng{authorbibnamehash}{8539a4cc99e302036cff498622533243}
+      \strng{authornamehash}{8539a4cc99e302036cff498622533243}
+      \strng{authorfullhash}{8539a4cc99e302036cff498622533243}
+      \strng{authorfullhashraw}{8539a4cc99e302036cff498622533243}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ird.fr/}}
+      \field{note}{Organisme public de recherche français}
+      \field{title}{Institut de Recherche pour le Développement (IRD)}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{leaflet}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3b81edbe1ff65e4b8607473cee6d2c33}{%
+           family={{Agafonkin, Vladimir and contributors}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{fullhash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{fullhashraw}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{bibnamehash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{authorbibnamehash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{authornamehash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{authorfullhash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{authorfullhashraw}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://leafletjs.com/}}
+      \field{note}{Version 1.9.x}
+      \field{title}{Leaflet: An open-source JavaScript library for mobile-friendly interactive maps}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{software-pytorch-2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=061df272426512c4d324fc7f6505e73a}{%
+           family={{Paszke, Adam and contributors}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {PyTorch Foundation}%
+      }
+      \strng{namehash}{061df272426512c4d324fc7f6505e73a}
+      \strng{fullhash}{061df272426512c4d324fc7f6505e73a}
+      \strng{fullhashraw}{061df272426512c4d324fc7f6505e73a}
+      \strng{bibnamehash}{061df272426512c4d324fc7f6505e73a}
+      \strng{authorbibnamehash}{061df272426512c4d324fc7f6505e73a}
+      \strng{authornamehash}{061df272426512c4d324fc7f6505e73a}
+      \strng{authorfullhash}{061df272426512c4d324fc7f6505e73a}
+      \strng{authorfullhashraw}{061df272426512c4d324fc7f6505e73a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Version 2.x}
+      \field{title}{{PyTorch}: An Open Source Machine Learning Framework}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://pytorch.org/
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/
+      \endverb
+    \endentry
+    \entry{software-django-2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f831bff1f5132f6edd2ec0e00e5b9af9}{%
+           family={{Django Software Foundation}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{fullhash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{fullhashraw}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{bibnamehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authorbibnamehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authornamehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authorfullhash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authorfullhashraw}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Version 5.x}
+      \field{title}{{Django} Web Framework}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.djangoproject.com/
+      \endverb
+      \verb{url}
+      \verb https://www.djangoproject.com/
+      \endverb
+    \endentry
+    \entry{software-postgis-2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=78a2ce4d0d166e633ce85670bf2ab3fb}{%
+           family={{PostGIS Project}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {OSGeo}%
+      }
+      \strng{namehash}{78a2ce4d0d166e633ce85670bf2ab3fb}
+      \strng{fullhash}{78a2ce4d0d166e633ce85670bf2ab3fb}
+      \strng{fullhashraw}{78a2ce4d0d166e633ce85670bf2ab3fb}
+      \strng{bibnamehash}{78a2ce4d0d166e633ce85670bf2ab3fb}
+      \strng{authorbibnamehash}{78a2ce4d0d166e633ce85670bf2ab3fb}
+      \strng{authornamehash}{78a2ce4d0d166e633ce85670bf2ab3fb}
+      \strng{authorfullhash}{78a2ce4d0d166e633ce85670bf2ab3fb}
+      \strng{authorfullhashraw}{78a2ce4d0d166e633ce85670bf2ab3fb}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Version 3.x}
+      \field{title}{{PostGIS}: Spatial and Geographic Objects for {PostgreSQL}}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://postgis.net/
+      \endverb
+      \verb{url}
+      \verb https://postgis.net/
+      \endverb
+    \endentry
+    \entry{software-docker-2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=e6f3d214228cc5933c1a82019f7dc0e0}{%
+           family={{Docker, Inc.}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{fullhash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{fullhashraw}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{bibnamehash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{authorbibnamehash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{authornamehash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{authorfullhash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{authorfullhashraw}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Version 25.x}
+      \field{title}{{Docker}: Empowering App Development for Developers}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.docker.com/
+      \endverb
+      \verb{url}
+      \verb https://www.docker.com/
+      \endverb
+    \endentry
+    \entry{software-leaflet-2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3b81edbe1ff65e4b8607473cee6d2c33}{%
+           family={{Agafonkin, Vladimir and contributors}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{fullhash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{fullhashraw}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{bibnamehash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{authorbibnamehash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{authornamehash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{authorfullhash}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \strng{authorfullhashraw}{3b81edbe1ff65e4b8607473cee6d2c33}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Version 1.9.x}
+      \field{title}{{Leaflet}: An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://leafletjs.com/
+      \endverb
+      \verb{url}
+      \verb https://leafletjs.com/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

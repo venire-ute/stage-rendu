@@ -1,0 +1,15 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'memoire_referenced.blg'
+[28] biber-darwin:340> INFO - === Sat Sep 13, 2025, 21:50:31
+[34] Biber.pm:420> INFO - Reading 'memoire_referenced.bcf'
+[66] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[71] Biber.pm:4463> INFO - Processing section 0
+[75] Biber.pm:4654> INFO - Looking for bibtex file 'references_tools_institutions.bib' for section 0
+[76] bibtex.pm:1713> INFO - LaTeX decoding ...
+[105] bibtex.pm:1519> INFO - Found BibTeX data source 'references_tools_institutions.bib'
+[192] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[192] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[192] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[192] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[203] bbl.pm:676> INFO - Writing 'memoire_referenced.bbl' with encoding 'UTF-8'
+[209] bbl.pm:779> INFO - Output to memoire_referenced.bbl
