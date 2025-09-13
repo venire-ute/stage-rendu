@@ -1,0 +1,15 @@
+env/
+data/use
+**/__pycache__/
+# Sensitive credentials
+# credentials.json
+# token.json
+# calendar/token.json
+.DS_Store
+data/back/WoSIS_2023_December.zip
+.vscode/
+data/
+geosoil/
+notebooks/
+rapport/
+thiam/

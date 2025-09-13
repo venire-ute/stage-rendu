@@ -1,0 +1,36 @@
+numpy
+pandas
+matplotlib
+geopandas
+dbfread
+seaborn
+scikit-learn
+earthengine-api 
+geemap
+google-auth
+google_auth_oauthlib
+plotly
+rasterio
+django 
+psycopg2-binary 
+django-environ
+# gdal==3.11.0
+# gdal==3.11.0
+webdavclient3
+tqdm
+djangorestframework
+markdown       # Markdown support for the browsable API.
+django-filter  # Filtering support for Django REST framework.
+djangorestframework-gis
+django-cors-headers
+simpledbf
+pyproj
+django-bulk-sync
+drf-restwind
+markdown 
+pygments
+SQLalchemy
+tables
+gunicorn
+# earthengine-api google-auth google-auth-oauthlib google-api-python-client
+shap
