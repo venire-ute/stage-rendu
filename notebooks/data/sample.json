@@ -1,0 +1,130 @@
+{
+  "band": "B4",
+  "info": {
+    "crs": "EPSG:32633",
+    "transform": [
+      60,
+      0,
+      375330,
+      0,
+      -60,
+      -534090
+    ],
+    "data_type": {
+      "type": "PixelType",
+      "precision": "int",
+      "min": 0,
+      "max": 255
+    },
+    "dimensions": [
+      3767,
+      3532
+    ],
+    "min_value": 10,
+    "max_value": 255
+  }
+},
+{
+  "band": "B5",
+  "info": {
+    "crs": "EPSG:32633",
+    "transform": [
+      60,
+      0,
+      375330,
+      0,
+      -60,
+      -534090
+    ],
+    "data_type": {
+      "type": "PixelType",
+      "precision": "int",
+      "min": 0,
+      "max": 255
+    },
+    "dimensions": [
+      3767,
+      3532
+    ],
+    "min_value": 8,
+    "max_value": 255
+  }
+},
+{
+  "band": "B6",
+  "info": {
+    "crs": "EPSG:32633",
+    "transform": [
+      60,
+      0,
+      375330,
+      0,
+      -60,
+      -534090
+    ],
+    "data_type": {
+      "type": "PixelType",
+      "precision": "int",
+      "min": 0,
+      "max": 255
+    },
+    "dimensions": [
+      3767,
+      3532
+    ],
+    "min_value": 1,
+    "max_value": 255
+  }
+},
+{
+  "band": "B7",
+  "info": {
+    "crs": "EPSG:32633",
+    "transform": [
+      60,
+      0,
+      375330,
+      0,
+      -60,
+      -534090
+    ],
+    "data_type": {
+      "type": "PixelType",
+      "precision": "int",
+      "min": 0,
+      "max": 255
+    },
+    "dimensions": [
+      3767,
+      3532
+    ],
+    "min_value": 1,
+    "max_value": 248
+  }
+},
+{
+  "band": "QA_PIXEL",
+  "info": {
+    "crs": "EPSG:32633",
+    "transform": [
+      60,
+      0,
+      375330,
+      0,
+      -60,
+      -534090
+    ],
+    "data_type": {
+      "type": "PixelType",
+      "precision": "int",
+      "min": 0,
+      "max": 65535
+    },
+    "dimensions": [
+      3767,
+      3532
+    ],
+    "min_value": 256,
+    "max_value": 776
+  }
+}
