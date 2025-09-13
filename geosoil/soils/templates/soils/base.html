@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <title>Geosoil</title> -->
+
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'font-awesome-4.7.0/css/font-awesome.min.css' %}">
+
+    <!-- <script src="https://unpkg.com/gojs/release/go.js"></script> -->
+
+
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+
+    {% block head %}
+    <p>header not found </p>
+    {% endblock %}
+
+
+
+</head>
+
+<body>
+
+
+<div id="loader" class="d-flex">
+    <div class="d-flex justify-content-center align-items-center" style="flex:3;">
+        <h1 class="text-gradient">Geosoil</h1>
+    </div>
+
+
+    <div class="d-flex flex-column" style="flex:1;">
+        <div class="loader-text">Chargement…</div>
+        <div class="progress-track">
+            <div class="progress-bar"></div>
+        </div>
+  </div>
+</div>
+
+    
+    <div class="d-flex flex-column " style="flex:1; background:#ffffff;  height:100vh">
+        {% block content %}
+
+        {% endblock %}
+    </div>
+
+
+
+    {% block scripts %}
+
+
+  <script>
+    /* Masquer l’overlay quand TOUT est chargé ;
+       utiliser DOMContentLoaded si vous voulez l’enlever plus tôt. */
+    window.addEventListener('load', () => {
+      const loader = document.getElementById('loader');
+        loader.classList.add('hidden');
+    
+    // // //   setTimeout(() => loader.remove(), 400);
+    });
+  </script>
+
+    {% endblock %}
+
+</body>
+
+</html>

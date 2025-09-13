@@ -1,0 +1,63 @@
+{% extends 'rest_framework/base.html' %}{% load i18n %}
+
+{% block title %}{% trans 'GEOS' %}{% endblock %}
+
+{% block theme %}emerald{% endblock %}
+
+{% comment %} {% block toggle_theme %}silk{% endblock %} {% endcomment %}
+
+<!-- Branding -->
+{% block branding %}
+<li
+  class="tooltip tooltip-right tooltip-primary"
+  data-tip="{% trans 'GEOS' %}"
+>
+  <a
+    href="/"
+    class="btn btn-sm btn-square btn-ghost lg:btn-md"
+  >
+    <i data-lucide="graduation-cap" class="size-4 lg:size-6"></i>
+    <span class="sr-only">{% trans 'GEOS' %}</span>
+  </a>
+</li>
+{% endblock %}
+
+<!-- Add your brand text -->
+{% block branding_text %}
+<h1 class="hidden text-xl font-semibold text-primary lg:block">
+  {% trans 'GEOS' %}
+</h1>
+
+<!-- Or an empty div to center the search bar -->
+<div class="hidden lg:block"></div>
+{% endblock %} 
+
+
+{% block userlinks %}
+<li
+  class="tooltip tooltip-right tooltip-secondary"
+  data-tip="{% trans 'App' %}"
+>
+  <a
+    href="/"
+    class="btn btn-sm btn-square btn-ghost lg:btn-md"
+  >
+    <i data-lucide="house" class="size-4 lg:size-6"></i>
+    <span class="sr-only">{% trans 'Home' %}</span>
+  </a>
+</li>
+{% comment %} admin {% endcomment %}
+<li
+  class="tooltip tooltip-right tooltip-secondary"
+  data-tip="{% trans 'Admin' %}"
+>
+  <a
+    href="/admin/"
+    class="btn btn-sm btn-square btn-ghost lg:btn-md"
+  >
+    <i data-lucide="shield" class="size-4 lg:size-6"></i>
+    <span class="sr-only">{% trans 'Admin' %}</span>
+  </a>
+</li>
+
+{% endblock %}

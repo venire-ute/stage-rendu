@@ -1,0 +1,26 @@
+# Ignore Python cache directories
+**/__pycache__/
+
+# Ignore virtual environments
+env/
+
+# Ignore datasets and tokens
+*.csv
+*.json
+*.ipynb
+*.zip
+*.pkl
+wosis_latest/
+
+# MacOS metadata
+.DS_Store
+
+# Git repository data
+.git
+
+# Ignore credentials or token files explicitly
+credentials.json
+token.json
+
+# Ignore other unnecessary files
+*.log

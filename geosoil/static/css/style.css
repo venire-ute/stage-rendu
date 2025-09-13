@@ -1,0 +1,141 @@
+html , body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #303030;
+    height: 100%;
+    width: 100%;
+    /* color: #ffffff !important; */
+
+}
+
+.d-none-imp {
+    display: none !important;
+}
+.d-block-imp {
+    display: block !important;
+}
+
+.console {
+    background-color: black;
+    color: limegreen;
+    font-family: monospace;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    resize: none;
+    height: 200px;
+    /* overflow: hidden;  */
+    /* white-space: pre-wrap;  */
+} 
+.console::-webkit-scrollbar {
+    display: none;
+}
+
+/* .console {
+    background-color: black;
+    color: limegreen;
+    font-family: monospace;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    resize: none;
+    height: 250px;
+    width: 100%;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    display: block;
+}
+.console::-webkit-scrollbar {
+    display: none;
+} */
+
+#myDiagramDiv {
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.image_mnist {
+
+        max-height: 100%;
+        max-width: 100%;
+}
+.blurred-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px); /* Effet flou */
+    background: rgba(255, 255, 255, 0.2); /* Transparence */
+    z-index: 1;
+}
+
+/* Désactiver le formulaire en dessous */
+.overlay {
+    position: relative;
+    z-index: 2;
+    pointer-events: none; /* Empêche les interactions */
+
+  
+}
+
+#map {
+    height: 100vh;
+}
+
+/* ----------  overlay ---------- */
+#loader{
+  position:fixed;inset:0;display:flex;flex-direction:column;
+  justify-content:center;align-items:center;
+  background:#060606;          /* adaptez à votre thème */
+  z-index:9999;transition:opacity .4s ease;
+}
+#loader.hidden{opacity:0;pointer-events:none}
+
+/* ----------  texte ---------- */
+.loader-text{
+  font:600 1.2rem/1 "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color:#555;margin-bottom:2rem;text-align:center;
+}
+
+/* ----------  progress bar ---------- */
+.progress-track{
+  width:90vw;height:8px;
+  background:#e5e5e5;border-radius:4px;overflow:hidden;
+  position:relative;
+}
+.progress-bar{
+  position:absolute;top:0;left:0;height:100%;width:40%;
+  background:linear-gradient(90deg,#3498db 0%,#8e44ad 100%);
+  border-radius:4px;
+  animation:move 1.6s ease-in-out infinite alternate;
+  /* halo lumineux optionnel */
+  filter:drop-shadow(0 0 4px rgba(52,152,219,.6));
+}
+@keyframes move{
+  from{transform:translateX(0)}
+  to  {transform:translateX(150%)}   /* 150 % ≈ sort presque hors piste */
+}
+
+.text-gradient {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  background: -webkit-linear-gradient(90deg,#3498db 0%,#8e44ad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+

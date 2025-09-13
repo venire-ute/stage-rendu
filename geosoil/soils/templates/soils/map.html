@@ -1,0 +1,810 @@
+{% extends "soils/base.html" %} {% load static %} {% block head %}
+<title>Geosoil Map</title>
+
+<link rel="stylesheet" href="{% static 'leaflet/leaflet.css' %}" />
+<link rel="stylesheet" href="{% static 'leaflet/MarkerCluster.css' %}" />
+<link
+  rel="stylesheet"
+  href="{% static 'leaflet/MarkerCluster.Default.css' %}"
+/>
+
+{% endblock %} {% block content %}
+<div class="container-fluid h-100">
+  <div class="row justify-content-center h-100">
+    <div class="col-9 h-100 p-0">
+      <div id="map"></div>
+    </div>
+    <div class="col-3 h-100 p-0">
+      <div class="d-flex flex-column h-100">
+        <div class="p-3 bg-light border-bottom">
+          <h2 class="text-center">Geosoil Map</h2>
+        </div>
+        <!-- <div class="flex-grow-1 p-3 overflow-none"> -->
+        <div class="p-3 h-100 overflow-none">
+          <p>
+            Bienvenue sur l'application de carte Geosoil. Utilisez la carte pour
+            explorer les données sur les sols.
+          </p>
+
+          <div class="d-flex flex-column h-100">
+            <p id="menuHeader" class="text-center"></p>
+            <div class="list-group" id="menu">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="go_to_initial_position()"
+              >
+                <i class="fa fa-map-marker" aria-hidden="true"></i> Bary ,
+                Diohine/Sassem, Sop</a
+              >
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="handleMenuClick('prelevements')"
+                ><i class="fa fa-database" aria-hidden="true"></i>
+                Prélévements</a
+              >
+              <a
+                href="#"
+                class="list-group-item list-group-item-action "
+            
+                onclick="handleMenuClick('predictions')"
+                ><i class="fa fa-line-chart" aria-hidden="true"></i>
+                Prédictions</a
+              >
+              <!-- <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="handleMenuClick('prefs')"
+              >
+                <i class="fa fa-cog" aria-hidden="true"></i> Préférences</a
+              >
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="handleMenuClick('settings')"
+                ><i class="fa fa-cog" aria-hidden="true"></i> Parametres</a
+              >  -->
+              <!-- <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="handleMenuClick('scripts')"
+                ><i class="fa fa-code" aria-hidden="true"></i> Scripts</a
+              > -->
+              <a href="api/" class="list-group-item list-group-item-action"
+                ><i class="fa fa-code" aria-hidden="true"></i> API</a
+              >
+              <a href="admin/" class="list-group-item list-group-item-action"
+                ><i class="fa fa-cog" aria-hidden="true"></i> Admin</a
+              >
+            </div>
+
+            <div class="list-group" id="scripts">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="handleMenuClick('menu')"
+              >
+                <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                Menu
+              </a>
+              <a href="#" class="list-group-item list-group-item-action"
+                >Ajouter des prelevements</a
+              >
+              <a
+                href="#"
+                class="list-group-item list-group-item-action disabled"
+                aria-disabled="true"
+                >Ajouter un script</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"> </a>
+              <a href="#" class="list-group-item list-group-item-action"> </a>
+            </div>
+
+            <div class="list-group" id="settings">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="handleMenuClick('menu')"
+              >
+                <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                Menu</a
+              >
+            </div>
+
+            <div class="list-group" id="prelevements">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="handleMenuClick('menu')"
+                ><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                Menu
+              </a>
+
+              {% for source in sources %}
+                <a
+                  href="#"
+                  id="{{ source.name }}"
+                  onclick="toggleSource('{{ source.name }}')"
+                  class="list-group-item list-group-item-action d-flex justify-content-between align-items-center " 
+                  
+                  ><span
+                    ><i class="fa fa-database" aria-hidden="true"></i> {{ source.name }}</span
+                  >
+                  <span class="badge bg-secondary"
+                    >{{ source.profile_count }}</span
+                  ></a
+                >
+              {% endfor %}
+
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="openModal()"
+                ><i class="fa fa-plus-circle" aria-hidden="true"></i> Ajouter un
+                prélèvement</a
+              >
+            </div>
+
+            <div class="list-group" id="predictions">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="handleMenuClick('menu')"
+                ><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                Menu</a>
+                <a href="#" class="list-group-item list-group-item-action " onclick="showSOC10()"
+                  ><i class="fa fa-database" aria-hidden="true"></i> SOC 0–10 cm</a
+                >
+                <a href="#" class="list-group-item list-group-item-action " onclick="showSOC30()"
+                  ><i class="fa fa-database" aria-hidden="true"></i> SOC 10–30 cm</a
+                >
+              </div>
+</div>
+            </div>
+
+            <div class="list-group" id="villages">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="handleMenuClick('menu')"
+                ><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                Menu</a
+              >
+            </div>
+
+            <div class="list-group" id="prefs">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                onclick="handleMenuClick('menu')"
+                ><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                Menu</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="p-2 bg-light border-top text-center">
+          <p class="mb-0">&copy; 2025 Geosoil. All rights reserved.</p>
+          <p>
+            <a href="#" class="text-muted">Privacy Policy</a> |
+            <a href="#" class="text-muted">Terms of Service</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div id="soc-controls" style="position:absolute; z-index:9999; top:12px; left:12px; background:#fff; padding:8px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.15)">
+  <div style="margin-bottom:6px; font-weight:600">Prédictions SOC</div>
+  <div class="btn-group" role="group">
+    <button class="btn btn-sm btn-outline-dark" onclick="showSocTiff('SOC10')">SOC 0–10 cm</button>
+    <button class="btn btn-sm btn-outline-dark" onclick="showSocTiff('SOC30')">SOC 10–30 cm</button>
+  </div>
+  <div style="margin-top:8px">
+    <label style="font-size:12px">Opacité: <span id="soc-opacity-val">0.85</span></label>
+    <input type="range" id="soc-opacity" min="0" max="1" step="0.05" value="0.85" style="width:160px">
+  </div> 
+</div> 
+
+</div>
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+{% endblock %} {% block scripts %}
+<script src="{% static 'leaflet/leaflet.js' %}"></script>
+
+<script src="{% static 'leaflet/leaflet.markercluster.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.0/proj4.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/geotiff@2.1.4-beta.0/dist-browser/geotiff.min.js"></script>
+{% comment %} <script src="https://unpkg.com/geotiff@2.2.2/dist/geotiff.browser.min.js"></script> {% endcomment %}
+{% comment %} <script src="https://unpkg.com/georaster@1.8.3/dist/georaster.browser.min.js"></script> {% endcomment %}
+<script src="https://cdn.jsdelivr.net/npm/georaster@1.6.0/dist/georaster.browser.bundle.min.js"></script>
+
+<script src="https://unpkg.com/georaster-layer-for-leaflet@3.0.0/dist/georaster-layer-for-leaflet.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+
+<script>
+  // create a modal button variable
+  var modal_button = document.createElement("button");
+  modal_button.type = "button";
+  modal_button.className = "btn btn-primary";
+  modal_button.setAttribute("data-bs-toggle", "modal");
+  modal_button.setAttribute("data-bs-target", "#exampleModal");
+  modal_button.textContent = "Launch demo modal";
+  var map = L.map("map").setView([14.5, -16.6], 10);
+  var sources = {
+    IRD: { color: "#ff0000" },
+    AFSP: { color: "#00ff00" },
+    WOSIS: { color: "#0000ff" },
+  };
+
+  var activesources = ["IRD"];
+  const availableSources = Object.keys(sources);
+  console.log("Sources:", availableSources);
+  var profiles = {};
+
+  var loading = true;
+  const loader = document.getElementById("loader");
+const parseGeoraster = window.parseGeoraster; 
+  // utlisation de cluster pour les profils
+
+  getProfiles = async function (source = []) {
+    const utm28n = "+proj=utm +zone=28 +datum=WGS84 +units=m +no_defs";
+
+    for( s of source ){
+      if ( s in profiles ) {
+        console.log(`Source ${s} already loaded, skipping fetch.`);
+        //
+        source = source.filter((item) => item !== s);
+
+      }}
+
+      try {
+        const response = await fetch(
+        `/api/soil-profiles/filter_sources?query=${source.join(",")}`
+      );
+      if (!response.ok) throw new Error(`Erreur HTTP : ${response.status}`);
+      const data = await response.json();
+      console.log("GeoJSON reçu (avec clusters):", data);
+
+      // grup profiles by source
+        const  _profiles = data.features.reduce((acc, feature) => {
+        const sourceName = feature.properties.source.name;
+        if (!acc[sourceName]) {
+          acc[sourceName] = [];
+        }
+        acc[sourceName].push(feature);
+        return acc;
+      }, {});
+      //ajouter au profiles global
+      profiles = { ...profiles, ..._profiles };
+      console.log("Profiles grouped by  source:", profiles);
+
+      placeProfilesOnMap();
+    } catch (error) {
+      console.error("Erreur détaillée:", error.message);
+    }
+  };
+
+  // Toggle source visibility
+  function toggleSource(sourceName) {
+    const sourceIndex = activesources.indexOf(sourceName);
+    if (sourceIndex > -1) {
+      // Source is already active, remove it
+      activesources.splice(sourceIndex, 1);
+      console.log(`Source ${sourceName} removed from active sources.`);
+    } else {
+      // Source is not active, add it
+      activesources.push(sourceName);
+      console.log(`Source ${sourceName} added to active sources.`);
+    }
+    // Update the profiles on the map
+    getProfiles(activesources);
+  }
+
+  function initMap() {
+    // Initialize the map
+
+    // Add OpenStreetMap tile layer
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      // minZoom: 2,
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(map);
+
+    // Add a marker for demonstration
+    L.marker([14.58993, -16.51468])
+      .addTo(map)
+      .bindPopup("Bary Zone céréalière dominante (mil)")
+      .openPopup();
+
+    L.marker([14.50389, -16.50194])
+      .addTo(map)
+      .bindPopup("Diohine/Sassem Périmètre maraîcher mixte")
+      .openPopup();
+
+    L.marker([14.48797, -16.44108])
+      .addTo(map)
+      .bindPopup("Sop Système agro-sylvo-pastoral")
+      .openPopup();
+  }
+
+  function addCircleMarker(lat, lng, radius, color) {
+    // Add a circle marker to the map
+    L.circleMarker([lat, lng], {
+      radius: radius,
+      color: color,
+      fillColor: color,
+      fillOpacity: 0.5,
+    })
+      .addTo(map)
+      .bindPopup(`Circle Marker at ${lat}, ${lng}`)
+      .openPopup();
+  }
+
+  function addMarker(lat, lng, popupText) {
+    // Add a marker to the map
+    L.marker([lat, lng]).addTo(map).bindPopup(popupText).openPopup();
+  }
+
+  // back to initial position
+  function go_to_initial_position() {
+    // go to 0 , 0
+    map.setView([14.6, -16.6], 10.1);
+  }
+
+  // Function  open the modal
+  function openModal() {
+    // modal_button.click();
+    // alert("Open modal to add a new prelevement");
+    var modal = new bootstrap.Modal(document.getElementById("exampleModal"));
+    modal.show();
+  }
+
+  function hide_loader() {
+    // Hide the loader
+    loader.classList.add("hidden");
+    // Remove the loader from the DOM after a delay
+    setTimeout(() => loader.remove(), 400);
+  }
+
+  // place profiles on the map
+  async function placeProfilesOnMap() {
+
+
+    activesources.forEach(function (source) {
+      if (!profiles[source]) {
+        console.warn(`No profiles found for source: ${source}`);
+        return;
+      }
+      const markerCluster = L.markerClusterGroup();
+
+      profiles[source].forEach((feature) => {
+        // const [lon, lat] = proj4(utm28n, 'WGS84', feature.geometry.coordinates);
+        const [lon, lat] = feature.geometry.coordinates;
+
+        const marker = L.circleMarker([lat, lon], {
+          radius: 5,
+          fillColor: sources[feature.properties.source.name]?.color || "#3388ff",
+          color: "#000",
+          weight: 1,
+          opacity: 1,
+          fillOpacity: 0.8,
+        }).bindPopup(`
+              <h4>${feature.properties.code}</h4>
+              <p>lon/lat : <b>${lon.toFixed(5)}, ${lat.toFixed(5)}</b></p>
+
+              ${Object.entries(feature.properties)
+                .filter(([k]) => !["code","source","teledection_data","created_at","updated_at"].includes(k)) 
+                .map(([k, v]) => `<p>${k} : <b>${v}</b></p>`)
+                .join("")}
+
+              <button onclick="alert('Inspection ${
+                feature.properties.code
+              }')">Inspection</button>
+            `).bindTooltip(
+          `<b>${feature.properties.code}</b> SOC : 10 G/T %`,
+          {
+            permanent: true,
+            direction: "top",
+            className: "custom-tooltip",
+          }
+        );
+
+        markerCluster.addLayer(marker);
+      })
+
+      map.addLayer(markerCluster);
+    });
+  }
+
+  function handleMenuClick(to) {
+    // Hide all sections
+    document.querySelectorAll(".list-group").forEach(function (section) {
+      section.style.display = "none";
+    });
+
+    // Show the selected section
+    var targetSection = document.getElementById(to);
+    if (targetSection) {
+      targetSection.style.display = "block";
+    }
+
+    // change the header text
+    var menuHeader = document.getElementById("menuHeader");
+    switch (to) {
+      case "villages":
+        menuHeader.textContent = "Villages";
+        break;
+      case "prelevements":
+        menuHeader.textContent = "Prélévements";
+        break;
+      case "predictions":
+        menuHeader.textContent = "Prédictions";
+        break;
+      case "prefs":
+        menuHeader.textContent = "Préférences";
+        break;
+      case "settings":
+        menuHeader.textContent = "Paramètres";
+        break;
+      case "scripts":
+        menuHeader.textContent = "Scripts";
+        break;
+      case "menu":
+        menuHeader.textContent = "Menu";
+        break;
+      default:
+        menuHeader.textContent = "";
+    }
+  }
+
+
+
+
+
+
+
+  // ====== CONFIG PREDICTIONS ======
+const PREDICTION_CSV_URL = "{% static 'data/data_test_sentinel_landsat_with_predictions.csv' %}"; 
+// Mets le bon chemin STATIC vers ton CSV
+
+let socLayer = L.layerGroup();   // couche dynamique pour les prédictions
+let currentSOCcol = "SOC10_pred"; // "SOC10_pred" ou "SOC30_pred"
+
+// Palette simple (quantiles) — adapte les seuils à tes valeurs
+function getColor(val, breaks) {
+  // breaks = [b0, b1, b2, b3, b4, b5] croissants (6 classes)
+  if (val == null || isNaN(val)) return "#cccccc";
+  if (val <= breaks[0]) return "#f7fcf5";
+  if (val <= breaks[1]) return "#c7e9c0";
+  if (val <= breaks[2]) return "#74c476";
+  if (val <= breaks[3]) return "#31a354";
+  if (val <= breaks[4]) return "#006d2c";
+  return "#00441b";
+}
+
+// Calcule des seuils (quantiles) à partir des valeurs (pour une palette équilibrée)
+function computeQuantileBreaks(values, k = 6) {
+  const vs = values.filter(x => x != null && !isNaN(x)).sort((a,b)=>a-b);
+  if (vs.length === 0) return [0,1,2,3,4,5];
+  const qs = [];
+  for (let i=1;i<k;i++) {
+    const p = i/k;
+    const idx = Math.floor(p * (vs.length-1));
+    qs.push(vs[idx]);
+  }
+  return qs; // longueur k-1 (ex: 5 seuils pour 6 classes)
+}
+
+// Légende
+let legendCtrl = L.control({position: "bottomright"});
+legendCtrl.onAdd = function(map) {
+  const div = L.DomUtil.create("div", "info legend");
+  div.style.background = "white";
+  div.style.padding = "8px";
+  div.style.borderRadius = "6px";
+  div.style.boxShadow = "0 1px 4px rgba(0,0,0,0.15)";
+  div.innerHTML = "<b>Légende</b><div id='soc-legend-breaks' style='margin-top:6px'></div>";
+  return div;
+};
+legendCtrl.addTo(map);
+
+function renderLegend(breaks, title = currentSOCcol) {
+  const el = document.getElementById("soc-legend-breaks");
+  if (!el) return;
+  const colors = breaks.map(b => getColor(b, breaks)).concat(getColor(breaks[breaks.length-1] + 1e-9, breaks));
+  let html = `<div style="margin-bottom:6px">${title}</div>`;
+  for (let i=0;i<breaks.length;i++) {
+    const from = (i===0) ? `≤ ${breaks[0].toFixed(2)}` : `${breaks[i-1].toFixed(2)} – ${breaks[i].toFixed(2)}`;
+    html += `
+      <div style="display:flex;align-items:center;gap:6px;margin:2px 0;">
+        <span style="display:inline-block;width:16px;height:12px;background:${getColor(breaks[i], breaks)}"></span>
+        <span>${from}</span>
+      </div>`;
+  }
+  html += `
+    <div style="display:flex;align-items:center;gap:6px;margin:2px 0;">
+      <span style="display:inline-block;width:16px;height:12px;background:${getColor(breaks[breaks.length-1] + 1e-9, breaks)}"></span>
+      <span>&gt; ${breaks[breaks.length-1].toFixed(2)}</span>
+    </div>`;
+  el.innerHTML = html;
+}
+
+// Charge & dessine le CSV en points colorés
+async function loadSOCPoints(valueCol = "SOC10_pred") {
+  currentSOCcol = valueCol;
+  // Vide l’ancienne couche
+  socLayer.clearLayers();
+
+  // Récup CSV
+  const resp = await fetch(PREDICTION_CSV_URL);
+  if (!resp.ok) {
+    console.error("Erreur chargement CSV:", resp.status);
+    return;
+  }
+  const csvText = await resp.text();
+  const parsed = Papa.parse(csvText, { header: true, dynamicTyping: true, skipEmptyLines: true });
+  const rows = parsed.data;
+
+  // Collecte des valeurs pour les seuils
+  const values = [];
+  for (const r of rows) {
+    const v = Number(r[valueCol]);
+    if (!isNaN(v)) values.push(v);
+  }
+  const breaks = computeQuantileBreaks(values, 6);
+  renderLegend(breaks, valueCol);
+
+  // Ajout des points
+  const markers = [];
+  rows.forEach(r => {
+    const lon = Number(r.Longitude_x);
+    const lat = Number(r.Latitude_x);
+    const val = Number(r[valueCol]);
+    if (isNaN(lon) || isNaN(lat)) return;
+
+    const color = getColor(val, breaks);
+    const m = L.circleMarker([lat, lon], {
+      radius: 10,
+      color: "#222",
+      weight: 0.7,
+      fillColor: color,
+      fillOpacity: 0.85
+    }).bindPopup(`
+      <div style="min-width:250px">
+        <b>ProfileID:</b> ${r.ProfileID ?? "—"}<br/>
+        <b>Longitude / Latitude:</b> ${lon.toFixed(5)}, ${lat.toFixed(5)}<br/>
+        <b>${valueCol}:</b> ${isNaN(val) ? "—" : Number(val).toFixed(4)}
+      </div>
+    `).bindTooltip(
+      `${valueCol}: ${isNaN(val) ? "—" : Number(val).toFixed(3)}`,
+      {direction:"top", opacity:0.9}
+    );
+
+    socLayer.addLayer(m);
+    markers.push(m);
+  });
+
+  socLayer.addTo(map);
+
+  // Fit bounds si on a des points
+  if (markers.length > 0) {
+    const group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.1));
+  }
+}
+
+// Boutons pour switcher SOC10/SOC30 (tu peux mettre ça dans ton UI)
+function showSOC10() { loadSOCPoints("SOC10_pred"); }
+function showSOC30() { loadSOCPoints("SOC30_pred"); }
+
+
+
+
+
+
+
+//  GEO-TIFF 
+const SOC_TIFF_URLS = {
+  SOC10: "{% static 'data/soc10.tif' %}",
+  SOC30: "{% static 'data/soc30.tif' %}"
+};
+
+let soc10Layer = null;
+let soc30Layer = null;
+let currentSocLayer = null;
+let currentBreaks = null;
+
+// Légende (réutilise ton style précédent)
+let socLegend = L.control({ position: "bottomright" });
+socLegend.onAdd = function(map){
+  const div = L.DomUtil.create("div", "info legend");
+  div.style.background = "white";
+  div.style.padding = "8px";
+  div.style.borderRadius = "6px";
+  div.style.boxShadow = "0 1px 4px rgba(0,0,0,0.15)";
+  div.innerHTML = "<b>Légende SOC</b><div id='soc-legend'></div>";
+  return div;
+};
+socLegend.addTo(map);
+
+function renderSocLegend(breaks, title){
+  const el = document.getElementById("soc-legend");
+  if(!el) return;
+  let html = `<div style="margin:6px 0">${title}</div>`;
+  const colors = breaks.map(b => getColor(b, breaks)).concat(getColor(breaks[breaks.length-1] + 1e-9, breaks));
+  for (let i=0;i<breaks.length;i++){
+    const from = (i===0) ? `≤ ${breaks[0].toFixed(2)}` : `${breaks[i-1].toFixed(2)} – ${breaks[i].toFixed(2)}`;
+    html += `
+      <div style="display:flex;align-items:center;gap:6px;margin:2px 0;">
+        <span style="display:inline-block;width:16px;height:12px;background:${getColor(breaks[i], breaks)}"></span>
+        <span>${from}</span>
+      </div>`;
+  }
+  html += `
+    <div style="display:flex;align-items:center;gap:6px;margin:2px 0;">
+      <span style="display:inline-block;width:16px;height:12px;background:${getColor(breaks[breaks.length-1] + 1e-9, breaks)}"></span>
+      <span>&gt; ${breaks[breaks.length-1].toFixed(2)}</span>
+    </div>`;
+  el.innerHTML = html;
+}
+
+// Palette (6 classes) – ajustable
+function getColor(val, breaks){
+  if (val == null || isNaN(val)) return "#cccccc";
+  if (val <= breaks[0]) return "#f7fcf5";
+  if (val <= breaks[1]) return "#c7e9c0";
+  if (val <= breaks[2]) return "#74c476";
+  if (val <= breaks[3]) return "#31a354";
+  if (val <= breaks[4]) return "#006d2c";
+  return "#00441b";
+
+  if (val == null || isNaN(val)) return "#cccccc";
+  if (val <= breaks[0]) return "#f7fcf5";
+  if (val <= breaks[1]) return "#c7e9c0";
+  if (val <= breaks[2]) return "#74c476";
+  if (val <= breaks[3]) return "#31a354";
+  if (val <= breaks[4]) return "#006d2c";
+  return "#00441b";
+}
+
+function linspace(min, max, k){
+  const out = [];
+  if (!isFinite(min) || !isFinite(max) || k < 2) return out;
+  const step = (max - min) / (k - 1);
+  for(let i=0;i<k;i++) out.push(min + i*step);
+  return out;
+}
+
+async function buildSocLayer(url, title="SOC"){
+  // Charge le GeoTIFF (mieux s'il est COG)
+  const resp = await fetch(url);
+  if (!resp.ok) {
+    console.error("Erreur chargement GeoTIFF:", resp.status, url);
+    return null;
+  }
+  const arrayBuffer = await resp.arrayBuffer();
+  const georaster = await parseGeoraster(arrayBuffer);
+
+  const band = 0; // première bande
+  const noData = georaster.noDataValue ?? georaster.nodata_value;
+  // min/max robustes (on prend stats du raster si dispo, sinon fallback)
+  const min = (georaster.mins && georaster.mins[band] != null) ? georaster.mins[band] : georaster.min;
+  const max = (georaster.maxs && georaster.maxs[band] != null) ? georaster.maxs[band] : georaster.max;
+  const _min = (typeof min === "number") ? min : 0;
+  const _max = (typeof max === "number") ? max : _min + 1;
+
+  // 6 classes, 5 seuils (linéaires ; tu peux faire quantiles côté serveur si tu veux)
+  const breaks = linspace(_min, _max, 6).slice(1); // 5 seuils
+  const layer = new GeoRasterLayer({
+    georaster,
+    opacity: Number(document.getElementById("soc-opacity").value),
+    pixelValuesToColorFn: values => {
+      let v = values[band];
+      if (v == null || isNaN(v)) return null;
+      if (noData != null && v === noData) return null;
+      return getColor(v, breaks);
+    }
+  });
+
+  layer.once("load", () => {
+    renderSocLegend(breaks, title);
+  });
+
+  // Conserve les breaks pour mise à jour légende si besoin
+  layer._breaks = breaks;
+  layer._title = title;
+
+  return layer;
+}
+
+// Switch entre SOC10 / SOC30
+async function showSocTiff(kind){
+  // Construire les layers à la demande
+  if (kind === "SOC10"){
+    if (!soc10Layer) soc10Layer = await buildSocLayer(SOC_TIFF_URLS.SOC10, "SOC 0–10 cm");
+    if (!soc10Layer) return;
+    if (soc30Layer) map.removeLayer(soc30Layer);
+    map.addLayer(soc10Layer);
+    currentSocLayer = soc10Layer;
+  } else {
+    if (!soc30Layer) soc30Layer = await buildSocLayer(SOC_TIFF_URLS.SOC30, "SOC 10–30 cm");
+    if (!soc30Layer) return;
+    if (soc10Layer) map.removeLayer(soc10Layer);
+    map.addLayer(soc30Layer);
+    currentSocLayer = soc30Layer;
+  }
+
+  // fit bounds sur la couche sélectionnée
+  if (currentSocLayer && currentSocLayer.getBounds){
+    map.fitBounds(currentSocLayer.getBounds().pad(0.05));
+  }
+
+  // mettre à jour la légende
+  if (currentSocLayer && currentSocLayer._breaks){
+    renderSocLegend(currentSocLayer._breaks, currentSocLayer._title || kind);
+  }
+}
+
+// Opacité slider
+document.getElementById("soc-opacity").addEventListener("input", (e) => {
+  const v = Number(e.target.value);
+  document.getElementById("soc-opacity-val").textContent = v.toFixed(2);
+  if (currentSocLayer) currentSocLayer.setOpacity(v);
+}); 
+
+
+
+
+  // Initialize the map
+  document.addEventListener("DOMContentLoaded", async function () {
+    initMap();
+    // Show the villages section by default
+    console.log("Showing villages section by default");
+
+    // Add markers for each source and profile
+
+    handleMenuClick("menu");
+    {% comment %} await getProfiles([  "AFSP"]);  {% endcomment %}
+    // await getProfiles([  "AFSP"]); 
+    {% comment %} await getProfiles(activesources); {% endcomment %}
+    // await loadSOCPoints("SOC10_pred"); 
+     await showSocTiff("SOC10"); 
+    hide_loader();
+    //   /* Retirer complètement du DOM après la transition (optionnel) */
+    //   setTimeout(() => loader.remove(), 400);
+  });
+</script>
+
+{% comment %}
+<script>
+  const map = L.map("map").setView([0, 0], 2);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 200,
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
+</script>
+{% endcomment %} {% endblock %}

@@ -1,0 +1,29 @@
+<!-- prettier ignore -->
+{% load i18n rest_framework %}
+
+<h2>{% trans "Ordering" %}</h2>
+
+<ul class="list">
+  <!-- prettier ignore -->
+  {% for key, label in options %}
+  <li class="list-row relative items-center">
+    <a href="{% add_query_param request param key %}" class="absolute inset-0">
+      <span class="sr-only">{{ label }}</span>
+    </a>
+    <div class="avatar avatar-placeholder">
+      <div
+        class="size-8 rounded-full {% if key == current %}bg-primary text-primary-content{% else %}bg-neutral text-neutral-content{% endif %}"
+      >
+        <i data-lucide="{% cycle 'arrow-down-0-1' 'arrow-up-1-0' %}" class="size-4 lg:size-6"></i>
+      </div>
+    </div>
+
+    <p>{{ label }}</p>
+
+    <!-- prettier ignore -->
+    {% if key == current %}
+    <span class="badge badge-success">{% trans 'Applied' %}</span>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

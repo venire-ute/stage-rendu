@@ -8,7 +8,8 @@ data/use
 .DS_Store
 data/back/WoSIS_2023_December.zip
 .vscode/
+
 data/
-geosoil/
+
 notebooks/
 rapport/
